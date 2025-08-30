@@ -81,5 +81,3 @@ The project follows a modular and clean architecture to separate concerns.
 
 This project is licensed under the **MIT License**.
 
-```
-```
