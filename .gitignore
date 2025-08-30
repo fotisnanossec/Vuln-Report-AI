@@ -1,0 +1,9 @@
+# Python virtual environment
+venv/
+
+# Pycache files
+__pycache__/
+
+# Local reports
+/reports/
+!/reports/example_report.md
