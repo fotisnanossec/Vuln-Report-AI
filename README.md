@@ -11,7 +11,7 @@ Follow these steps to set up and run the `Vuln-Report-AI` tool on your local mac
 #### **Prerequisites**
 
 * **Python 3.10 or higher**: `python3 --version`
-* **A running LLM instance**: You must have a local LLM running and exposed via an API. This project was developed using [LM Studio](https://lmstudio.ai/) with the `lily-cybersecurity-7b-v0.2` model.
+* **A running LLM instance**: You must have a local LLM running and exposed via an API. This project was developed using [LM Studio](https://lmstudio.ai/) with the `mistral-7b-instruct-v0.3` model.
 * **Security Tools**: Ensure `nmap`, `nuclei`, and `sqlmap` are installed and available in your system's PATH.
 
 #### **Installation**
