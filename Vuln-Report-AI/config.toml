@@ -3,15 +3,15 @@
 
 [tools]
 # Commands to run security tools as a list of strings for security.
-# The target IP is now set to your Metasploitable2 VM's IP address.
+# The target IP is set to  Metasploitable2 VM's IP address.
 sqlmap_command = ["sqlmap", "-u", "http://{target_ip}/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit", "--batch", "--random-agent", "--level", "1", "--risk", "1", "--dbs"]
 nuclei_command = ["nuclei", "-u", "http://{target_ip}", "-o", "/tmp/nuclei_scan.txt", "-rl", "20", "-tags", "cve,web,misconfiguration"]
 nmap_command = ["nmap", "-p", "21-1000,3306,8009,8180", "-T4", "-Pn", "-oN", "/tmp/nmap_scan.txt", "{target_ip}"]
 
 [llm]
-# The LLM API URL is now set to the IP address of your host machine running LM Studio.
+# The LLM API URL
 api_url = "http://169.254.83.107:1234/v1/completions"
-# The LLM model name is now configured centrally.
+# The LLM model name 
 model_name = "mistral-7b-instruct-v0.3"
 
 [report]
