@@ -1,6 +1,6 @@
 # Vuln-Report-AI: Automated Security Reporting Tool
 
-An automated command-line tool that performs security scans using popular open-source tools (Nmap, Nuclei, and SQLMap) and leverages a local Large Language Model (LLM) to generate a professional, actionable security report
+An automated command-line tool that performs security scans using popular open-source tools (Nmap, Nuclei, and SQLMap) and leverages a local Large Language Model (LLM) to generate an actionable security report
 
 ***
 
